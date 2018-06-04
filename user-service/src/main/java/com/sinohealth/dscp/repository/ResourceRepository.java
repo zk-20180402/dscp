@@ -3,12 +3,14 @@ package com.sinohealth.dscp.repository;
 
 import com.sinohealth.dscp.model.Resource;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.Date;
+import java.util.List;
 
-public interface ResourceRepository extends JpaRepository<Resource, Integer> {
+public interface ResourceRepository extends JpaRepository<Resource, Integer>, JpaSpecificationExecutor<Resource> {
     //自定义方法
 
     /*@Query(value = "SELECT c.*\n" +
@@ -29,4 +31,7 @@ public interface ResourceRepository extends JpaRepository<Resource, Integer> {
     Integer updateResource(Date create_time, Date update_time, Integer id);
 
     Resource getById(Integer id);
+
+    @Query("select rs.* from Resource rs join RoleResource rr on (rs.id=rr.resourceId) join UserRole ur on (ur.roleId=rr.roleId) where ur.userId=?1")
+    List<Resource> getResourcesByUserId(Integer roleId);
 }

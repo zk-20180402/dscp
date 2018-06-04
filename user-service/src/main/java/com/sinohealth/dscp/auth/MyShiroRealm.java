@@ -40,7 +40,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         logger.info("登陆账号：" + user.getName());
 
         //查询用户名称
-        List<Role> roles = roleServiceV1.getRolesByIds(user.getId());
+        List<Role> roles = roleServiceV1.getRolesByUserId(user.getId());
 
         //添加角色和权限
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
@@ -50,7 +50,7 @@ public class MyShiroRealm extends AuthorizingRealm {
             logger.info("账号角色：" + role.toString());
         }
 
-        List<Resource> resources = resourceServiceV1.getResourcesByIds(roles);
+        List<Resource> resources = resourceServiceV1.getResourcesByRoles(roles);
         for (Resource resource : resources) {
             //添加权限
             simpleAuthorizationInfo.addStringPermission(resource.getResourceName());

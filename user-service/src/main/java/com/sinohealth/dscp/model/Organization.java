@@ -26,10 +26,10 @@ public class Organization implements Serializable {
     private Integer organizationStatus = 1;
     private Date createTime;
     @Column(length = 20)
-    private Integer createUser;
+    private String createUser;
     private Date updateTime;
     @Column(length = 20)
-    private Integer updateUser;
+    private String updateUser;
 
     public Integer getId() {
         return id;
@@ -71,11 +71,11 @@ public class Organization implements Serializable {
         this.createTime = createTime;
     }
 
-    public Integer getCreateUser() {
+    public String getCreateUser() {
         return createUser;
     }
 
-    public void setCreateUser(Integer createUser) {
+    public void setCreateUser(String createUser) {
         this.createUser = createUser;
     }
 
@@ -87,11 +87,11 @@ public class Organization implements Serializable {
         this.updateTime = updateTime;
     }
 
-    public Integer getUpdateUser() {
+    public String getUpdateUser() {
         return updateUser;
     }
 
-    public void setUpdateUser(Integer updateUser) {
+    public void setUpdateUser(String updateUser) {
         this.updateUser = updateUser;
     }
 
@@ -99,7 +99,7 @@ public class Organization implements Serializable {
     }
 
     public Organization(Integer id, String organizationName, Integer parentId, Integer organizationStatus,
-                        Date createTime, Integer createUser, Date updateTime, Integer updateUser) {
+                        Date createTime, String createUser, Date updateTime, String updateUser) {
         this.id = id;
         this.organizationName = organizationName;
         this.parentId = parentId;

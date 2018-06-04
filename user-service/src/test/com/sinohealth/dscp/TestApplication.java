@@ -105,10 +105,11 @@ public class TestApplication {
         List<User> userList = userServiceV1.getUserRepository().findAll();
         int randomId = cycleRandom(userList.size());
         User oldUser = userServiceV1.getUserRepository().findOne(randomId);
-        Integer flag = userServiceV1.updateUser(TimeUtil.ymdHms2date(), TimeUtil.ymdHms2date(), oldUser.getId
-                ());
-        if (flag == 1) {
-            User newUser = userServiceV1.getUserRepository().findOne(randomId);
+        User changeUser = oldUser;
+        changeUser.setCreateTime(TimeUtil.ymdHms2date());
+        changeUser.setUpdateTime(TimeUtil.ymdHms2date());
+        User newUser = userServiceV1.updateUser(changeUser);
+        if (newUser != null) {
             logger.info("修改" + oldUser.getName() + "成功！修改前：" + oldUser.toString() + "|| 修改后：" + newUser
                     .toString());
         }

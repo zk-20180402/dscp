@@ -2,14 +2,15 @@ package com.sinohealth.dscp.repository;
 
 
 import com.sinohealth.dscp.model.Job;
-import com.sinohealth.dscp.model.Role;
+import com.sinohealth.dscp.model.Resource;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.Date;
 
-public interface JobRepository extends JpaRepository<Job, Integer> {
+public interface JobRepository extends JpaRepository<Job, Integer> , JpaSpecificationExecutor<Job> {
     //自定义方法
 
     /*@Query(value = "SELECT c.*\n" +

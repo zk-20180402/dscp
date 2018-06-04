@@ -1,12 +1,8 @@
 package com.sinohealth.dscp.api.v1;
 
-import com.sinohealth.dscp.model.Resource;
-import com.sinohealth.dscp.model.Role;
-import com.sinohealth.dscp.model.User;
 import com.sinohealth.dscp.service.ResourceServiceV1;
 import com.sinohealth.dscp.service.RoleServiceV1;
 import com.sinohealth.dscp.service.UserServiceV1;
-import com.sinohealth.dscp.util.EncryptUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
@@ -21,12 +17,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.util.List;
-
 /**
  * @Auther: Administrator
  * @Date: 2018/5/20
- * @Description:
+ * @Description: 登录控制器
  */
 @Controller
 public class LoginController {
@@ -73,7 +67,7 @@ public class LoginController {
             model.addAttribute("msg", "用户【" + userName + "】登陆成功！sessionId: " + subject.getSession().getId());
 
             //获取session中对象
-            Object obj = subject.getSession().getAttribute(userName);
+            /*Object obj = subject.getSession().getAttribute(userName);
             User user = null;
             if (obj == null) {
                 user = userServiceV1.getUserRepository().getByLoginNameAndLoginPasswd(userName, EncryptUtil.md5Encode(password));
@@ -82,13 +76,13 @@ public class LoginController {
             }
             if (user != null) {
                 //获取角色信息
-                List<Role> roles = roleServiceV1.getRolesByIds(user.getId());
+                List<Role> roles = roleServiceV1.getRolesByUserId(user.getId());
                 model.addAttribute("roles", roles);
 
                 //获取资源信息
-                List<Resource> resources = resourceServiceV1.getResourcesByIds(roles);
+                List<Resource> resources = resourceServiceV1.getResourcesByRoles(roles);
                 model.addAttribute("resources", resources);
-            }
+            }*/
 
             return "index";
         } else {
@@ -104,9 +98,9 @@ public class LoginController {
 
     //登出
     @GetMapping("/logout")
-    public String logout() {
-        /*SecurityUtils.getSubject().logout();
-        redirectAttributes.addFlashAttribute("message", "您已安全退出");*/
+    public String logout(Model model) {
+        SecurityUtils.getSubject().logout();
+        model.addAttribute("msg", "您已安全退出");
         return "logout";
     }
 

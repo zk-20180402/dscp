@@ -3,12 +3,13 @@ package com.sinohealth.dscp.repository;
 
 import com.sinohealth.dscp.model.Organization;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.Date;
 
-public interface OrganizationRepository extends JpaRepository<Organization, Integer> {
+public interface OrganizationRepository extends JpaRepository<Organization, Integer>, JpaSpecificationExecutor<Organization> {
     //自定义方法
 
     /*@Query(value = "SELECT c.*\n" +
