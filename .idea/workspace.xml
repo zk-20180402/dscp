@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9151e0a-7eef-4b59-a72f-002dd0040167" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/util/EncryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway-service/src/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway-service/src/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway-service/src/resources/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medicine-service/src/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medicine-service/src/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medicine-service/src/resources/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy-service/src/main/resources/user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserOrganization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/basicTable_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/basicTable_service_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_49.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drug-service/src/main/resources/sql/all_sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/DrugTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterDir="false" />
@@ -65,6 +52,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
@@ -99,15 +87,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" afterDir="false" />
@@ -119,6 +112,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
@@ -157,6 +151,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" afterDir="false" />
@@ -207,6 +202,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
@@ -214,47 +212,38 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicTable-service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicTable-service/basicTable-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/basic-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicTable-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicTable-service/src/main/java/com/sinohealth/dscp/BasicTableApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/src/main/java/com/sinohealth/dscp/BasicApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/util/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/util/TimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/sinohealth/dscp/util/TimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/sinohealth/dscp/util/TimeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/common-service-master-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/common-service-master-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/用户权限管理表设计.docx" beforeDir="false" afterPath="$PROJECT_DIR$/document/用户权限管理表设计.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/com/sinohealth/dscp/DrugApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/com/sinohealth/dscp/api/v1/DrugControllerV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/com/sinohealth/dscp/model/Drug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/com/sinohealth/dscp/repository/DrugRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/com/sinohealth/dscp/service/DrugServiceV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/drug-service-master-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/test-classes/com/sinohealth/dscp/TestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-service/target/test-classes/com/sinohealth/dscp/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy-service/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy-service/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleuth-service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth-service/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/basic-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/basic-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/common-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/common-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/drug-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/drug-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/DrugApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/DrugApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/api/v1/DrugControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/api/v1/DrugControllerV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/repository/DrugRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/service/DrugServiceV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/service/DrugServiceV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/TestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getway-service/getway-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/getway-service/getway-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getway-service/src/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/getway-service/src/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine-service/src/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/medicine-service/src/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pharmacy-service/pharmacy-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy-service/pharmacy-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pharmacy-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qcc-service/qcc-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qcc-service/qcc-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qcc-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qcc-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qcc-service/src/test/com/sinohealth/dscp/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qcc-service/src/test/com/sinohealth/dscp/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/search-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/search-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth-service/sleuth-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth-service/sleuth-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sleuth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sleuth-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserServiceV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserServiceV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/all_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -285,92 +274,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/User.java">
+      <file leaf-file-name="DrugServiceV1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/service/DrugServiceV1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="21" column="36" selection-end-line="248" />
+            <state relative-caret-position="177">
+              <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2131#2132#0" expanded="true" />
+                <element signature="e#2180#2181#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
+                <element signature="e#2270#2271#0" expanded="true" />
+                <element signature="e#2343#2344#0" expanded="true" />
+                <element signature="e#2398#2399#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserJob.java">
+      <file leaf-file-name="DrugTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/DrugTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="23" column="26" selection-end-line="114" />
+            <state relative-caret-position="375">
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserOrganization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserOrganization.java">
+      <file leaf-file-name="DrugMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/DrugMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="23" column="35" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRole.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/auth/ShiroConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="39" column="52" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="17" column="7" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Organization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Organization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="19" column="23" selection-end-line="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Resource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="41" selection-end-line="163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="23" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/RoleResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="18" column="51" selection-end-line="114" />
+            <state relative-caret-position="214">
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -387,25 +328,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>channelRepository</find>
-      <find>STDOUT</find>
-      <find>LOG_HOME</find>
-      <find>rollingPolicy</find>
-      <find>applicable</find>
-      <find>SYSTEM_LOG_HOME</find>
-      <find>APP_LOG_HOME</find>
-      <find>ROLLING_FILE</find>
-      <find>channelServiceV1</find>
-      <find>频道</find>
-      <find>Long</find>
-      <find>comment</find>
-      <find>评论</find>
-      <find>getUserByCommentIdError</find>
-      <find>channel</find>
-      <find>findQcc</find>
-      <find>Comment</find>
-      <find>getway-service</find>
-      <find>getway</find>
       <find>medicine</find>
       <find>medicine-service</find>
       <find>Channel</find>
@@ -417,6 +339,25 @@
       <find>User</find>
       <find>用户</find>
       <find>roleResource</find>
+      <find>com.sinohealth.com</find>
+      <find>com.mongcent.tnaot</find>
+      <find>CommentServiceV1</find>
+      <find>jdbc:mysql://127.0.0.1:3306</find>
+      <find>my</find>
+      <find>mysql_connector_java</find>
+      <find>5.1.43</find>
+      <find>mysql-connector-java</find>
+      <find>mysql</find>
+      <find>5.1.</find>
+      <find>basedir</find>
+      <find>mysq</find>
+      <find>t_role</find>
+      <find>BaseResultMap</find>
+      <find>selectByPrimaryKey</find>
+      <find>updateByPrimaryKey</find>
+      <find>delete</find>
+      <find>deleteDrugById</find>
+      <find>deleteByPrimaryKey</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -441,6 +382,8 @@
       <replace>用户职位</replace>
       <replace>用户组织架构</replace>
       <replace>用户角色</replace>
+      <replace>t_drug</replace>
+      <replace>t_project</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -449,43 +392,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/apache-maven-3.3.9/shuren_repository/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class" />
-        <option value="$PROJECT_DIR$/sleuth-service/README.md" />
-        <option value="$PROJECT_DIR$/basic-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/medicine-service/src/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pharmacy-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/getway-service/src/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/config-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/GlobalServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/GlobalRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/JobRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/OrganizationRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserJobRepository.java" />
-        <option value="$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/exception/JsonResult.java" />
-        <option value="$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/exception/ExceptionHandlerAdvice.java" />
-        <option value="$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/exception/RespCode.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserOrganizationRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/api/v1/LoginConroller.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/Test.java" />
-        <option value="$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/TestApplication.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/auth/ShiroConfiguration.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/auth/MyShiroRealm.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/user-service/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/RoleServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/ResourceRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/RoleResourceRepository.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/ResourceServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/JobServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/OrganizationServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/RoleResourceServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserJobServiceV1.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserOrganizationServiceV1.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserRoleServiceV1.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserServiceV1.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/api/v1/LoginController.java" />
@@ -500,6 +406,43 @@
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserJob.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserOrganization.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserRole.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/qcc-service/src/test/com/sinohealth/dscp/TestApplication.java" />
+        <option value="$PROJECT_DIR$/discovery-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/basic-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/getway-service/src/resources/application.yml" />
+        <option value="$PROJECT_DIR$/medicine-service/src/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pharmacy-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/qcc-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sleuth-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/common-service/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/basic-service/pom.xml" />
+        <option value="$PROJECT_DIR$/drug-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Project.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Role.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/DrugApplication.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/TestApplication.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/ProjectMapper.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/api/v1/DrugControllerV1.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/resources/mapping/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/resources/sql/sql.sql" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/Test.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/resources/sql/all_sql.sql" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/repository/DrugRepository.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Drug.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/resources/mapping/DrugMapper.xml" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/DrugMapper.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/constants/Global.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/constants/enumClass/sqlType.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/constants/enumClass/SqlType.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/service/DrugServiceV1.java" />
+        <option value="$PROJECT_DIR$/drug-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/DrugTest.java" />
       </list>
     </option>
   </component>
@@ -512,8 +455,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/soft/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="D:\soft\apache-maven-3.5.3\conf\settings.xml" />
+        <option name="mavenHome" value="E:/soft/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\soft\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -538,9 +481,12 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="130" />
-    <option name="y" value="8" />
+    <option name="x" value="56" />
+    <option name="y" value="166" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -572,8 +518,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -584,92 +531,42 @@
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -677,32 +574,40 @@
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dscp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dscp" type="462c0819:PsiDirectoryNode" />
+              <item name="drug-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,7 +619,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test/tnaot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -723,11 +628,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\zk_workSpace\dscp\pharmacy-service\src\main" />
-      <recent name="E:\work_space\idea\zk\dscp\basicTable-service\src\main\java" />
-      <recent name="E:\mx_workSpace\tnaot\config-service" />
-      <recent name="D:\workspace\mx\tnaot.net\tnaot\channel-service\src\test\java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mongcent.tnaot" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mx.tnaot.api" />
@@ -735,20 +637,25 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work_space\idea\micro-service\dscp\drug-service\src\main\resources\generator" />
       <recent name="E:\zk_workSpace\dscp\pharmacy-service\src" />
       <recent name="E:\zk_workSpace\dscp\medicine-service\src" />
       <recent name="E:\zk_workSpace\dscp\getway-service\src" />
       <recent name="E:\zk_workSpace\dscp\basic-service\src\main" />
-      <recent name="E:\work_space\idea\zk\dscp\dscp-ui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sinohealth.dscp.model" />
       <recent name="com.sinohealth.dscp.service" />
       <recent name="com.sinohealth.dscp.repository" />
       <recent name="com.mongcent.tnaot" />
       <recent name="com.mongcent.tnaot.repository" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.mongcent.tnaot" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\work_space\idea\micro-service\dscp\common-service\src\main\resources\generator" />
+      <recent name="E:\zk_workSpace\dscp\pharmacy-service\src\main" />
+      <recent name="E:\work_space\idea\zk\dscp\basicTable-service\src\main\java" />
+      <recent name="E:\mx_workSpace\tnaot\config-service" />
+      <recent name="D:\workspace\mx\tnaot.net\tnaot\channel-service\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -763,26 +670,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserApplication (1)">
+  <component name="RunManager" selected="JUnit.DrugTest.testMiltInsert">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.Test" />
-      <module name="user-service" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinohealth.dscp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="UserApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.UserApplication" />
-      <module name="user-service" />
+    <configuration name="DiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.DiscoveryApplication" />
+      <module name="discovery-service" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -794,140 +690,19 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-service" />
+    <configuration name="DrugTest.testDeleteDrug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drug-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sinohealth.dscp.*" />
+          <option name="PATTERN" value="com.sinohealth.dscp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sinohealth.dscp" />
-      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.TestApplication" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://." />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mongcent.tnaot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="channel-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mongcent.tnaot" />
-      <option name="MAIN_CLASS_NAME" value="com.mongcent.tnaot.TestApplication" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/channel-service" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mongcent.tnaot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="user-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mongcent.tnaot" />
-      <option name="MAIN_CLASS_NAME" value="com.mongcent.tnaot.TestApplication" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mongcent.tnaot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="user-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mongcent.tnaot" />
-      <option name="MAIN_CLASS_NAME" value="com.mongcent.tnaot.TestApplication" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestApplication.getUserByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinohealth.dscp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sinohealth.dscp" />
-      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.TestApplication" />
-      <option name="METHOD_NAME" value="getUserByUserId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://." />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestApplication.testAddAuthData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinohealth.dscp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sinohealth.dscp" />
-      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.TestApplication" />
-      <option name="METHOD_NAME" value="testAddAuthData" />
+      <option name="PACKAGE_NAME" value="com.sinohealth.dscp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.test.DrugTest" />
+      <option name="METHOD_NAME" value="testDeleteDrug" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -936,6 +711,123 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <patterns />
+    </configuration>
+    <configuration name="DrugTest.testGetDrugById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drug-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinohealth.dscp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sinohealth.dscp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.test.DrugTest" />
+      <option name="METHOD_NAME" value="testGetDrugById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DrugTest.testGetDrugs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drug-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinohealth.dscp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sinohealth.dscp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.test.DrugTest" />
+      <option name="METHOD_NAME" value="testGetDrugs" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DrugTest.testMiltInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drug-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinohealth.dscp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sinohealth.dscp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.test.DrugTest" />
+      <option name="METHOD_NAME" value="testMiltInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DrugTest.updateDrug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drug-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinohealth.dscp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sinohealth.dscp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sinohealth.dscp.test.DrugTest" />
+      <option name="METHOD_NAME" value="updateDrug" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mongcent.tnaot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mongcent.tnaot" />
+      <option name="MAIN_CLASS_NAME" value="com.mongcent.tnaot.TestApplication" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -953,6 +845,77 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="common-service" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/drug-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sinohealth.dscp.CommonApplication" />
+    </configuration>
+    <configuration name="DrugApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="drug-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinohealth.dscp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sinohealth.dscp.DrugApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -976,45 +939,22 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="common-service" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <list>
-      <item itemvalue="Application.UserApplication (1)" />
-      <item itemvalue="JUnit.TestApplication" />
-      <item itemvalue="JUnit.TestApplication.getUserByUserId" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.TestApplication.testAddAuthData" />
+      <item itemvalue="Maven.generator" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.DrugApplication" />
+      <item itemvalue="JUnit.DrugTest.testGetDrugById" />
+      <item itemvalue="JUnit.DrugTest.testDeleteDrug" />
+      <item itemvalue="Application.DiscoveryApplication" />
+      <item itemvalue="JUnit.DrugTest.testMiltInsert" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserApplication (1)" />
-        <item itemvalue="JUnit.TestApplication" />
-        <item itemvalue="JUnit.TestApplication.testAddAuthData" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.TestApplication.getUserByUserId" />
+        <item itemvalue="JUnit.DrugTest.testMiltInsert" />
+        <item itemvalue="JUnit.DrugTest.testDeleteDrug" />
+        <item itemvalue="Spring Boot.DrugApplication" />
+        <item itemvalue="Application.DiscoveryApplication" />
+        <item itemvalue="JUnit.DrugTest.testGetDrugById" />
       </list>
     </recent_temporary>
   </component>
@@ -1054,81 +994,125 @@
       <workItem from="1526657597013" duration="741000" />
       <workItem from="1526717277453" duration="18612000" />
       <workItem from="1526779399800" duration="28645000" />
+      <workItem from="1533951619738" duration="9577000" />
+      <workItem from="1533966089970" duration="57000" />
+      <workItem from="1533966220394" duration="1485000" />
+      <workItem from="1533967736512" duration="378000" />
+      <workItem from="1533968133588" duration="8764000" />
+      <workItem from="1533979381901" duration="5181000" />
+      <workItem from="1534123975419" duration="17042000" />
+      <workItem from="1534238726154" duration="2881000" />
+      <workItem from="1534241675874" duration="3069000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestApplication_addUserData - 2018.05.19 at 22h 37m 41s.xml">
-      <configuration name="TestApplication.addUserData" configurationId="JUnit" />
+    <history-entry file="DrugTest_updateDrug - 2018.08.13 at 15h 02m 10s.xml">
+      <configuration name="DrugTest.updateDrug" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_delRandomUser - 2018.04.02 at 17h 01m 39s.xml">
-      <configuration name="TestApplication.delRandomUser" configurationId="JUnit" />
+    <history-entry file="DrugTest_testDeleteDrug - 2018.08.13 at 15h 22m 08s.xml">
+      <configuration name="DrugTest.testDeleteDrug" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication - 2018.05.20 at 09h 31m 44s.xml">
-      <configuration name="TestApplication" configurationId="JUnit" />
+    <history-entry file="DrugTest_testDeleteDrug - 2018.08.14 at 18h 46m 06s.xml">
+      <configuration name="DrugTest.testDeleteDrug" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_getUserByUserId - 2018.05.20 at 09h 35m 31s.xml">
-      <configuration name="TestApplication.getUserByUserId" configurationId="JUnit" />
+    <history-entry file="DrugTest_testDeleteDrug - 2018.08.14 at 18h 48m 17s.xml">
+      <configuration name="DrugTest.testDeleteDrug" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_getUserByUserId - 2018.05.20 at 09h 37m 02s.xml">
-      <configuration name="TestApplication.getUserByUserId" configurationId="JUnit" />
+    <history-entry file="DrugTest_testMiltInsert - 2018.08.14 at 18h 50m 45s.xml">
+      <configuration name="DrugTest.testMiltInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_testAddAuthData - 2018.05.20 at 16h 45m 44s.xml">
-      <configuration name="TestApplication.testAddAuthData" configurationId="JUnit" />
+    <history-entry file="DrugTest_testMiltInsert - 2018.08.14 at 18h 53m 08s.xml">
+      <configuration name="DrugTest.testMiltInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_testAddAuthData - 2018.05.20 at 16h 59m 59s.xml">
-      <configuration name="TestApplication.testAddAuthData" configurationId="JUnit" />
+    <history-entry file="DrugTest_testMiltInsert - 2018.08.14 at 18h 54m 45s.xml">
+      <configuration name="DrugTest.testMiltInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_testAddAuthData - 2018.05.20 at 17h 03m 43s.xml">
-      <configuration name="TestApplication.testAddAuthData" configurationId="JUnit" />
+    <history-entry file="DrugTest_testMiltInsert - 2018.08.14 at 18h 56m 42s.xml">
+      <configuration name="DrugTest.testMiltInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication_testAddAuthData - 2018.05.20 at 18h 17m 58s.xml">
-      <configuration name="TestApplication.testAddAuthData" configurationId="JUnit" />
+    <history-entry file="DrugTest_testMiltInsert - 2018.08.14 at 18h 59m 42s.xml">
+      <configuration name="DrugTest.testMiltInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestApplication - 2018.05.20 at 18h 23m 33s.xml">
-      <configuration name="TestApplication" configurationId="JUnit" />
+    <history-entry file="DrugTest_testMiltInsert - 2018.08.14 at 19h 05m 58s.xml">
+      <configuration name="DrugTest.testMiltInsert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209502000" />
+    <option name="totallyTimeSpent" value="257936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10104167" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12846482" side_tool="true" weight="0.33226153" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.12793177" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.21420644" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35058078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81396586" weight="0.4051447" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.31045407" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30975348" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13305174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8715352" visible="true" weight="0.6881029" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23958333" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8780096" visible="true" weight="0.21055438" />
       <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Web" order="2" sideWeight="0.12199037" side_tool="true" weight="0.21055438" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="REST Client" order="9" weight="0.42336547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="REST Client" order="14" weight="0.42336547" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8715352" visible="true" weight="0.33226153" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.12846482" side_tool="true" visible="true" weight="0.33226153" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.30975348" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.12793177" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8780096" visible="true" weight="0.21055438" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" sideWeight="0.12199037" side_tool="true" visible="true" weight="0.21055438" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.21420644" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81396586" weight="0.4051447" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1157,8 +1141,14 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/DrugTest.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1168,448 +1158,348 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/exception/ExceptionHandlerAdvice.java">
+    <entry file="file://$PROJECT_DIR$/getway-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/exception/RespCode.java">
+    <entry file="file://$PROJECT_DIR$/getway-service/src/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="925">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-service/src/main/java/com/sinohealth/dscp/controller/HelloWorldController.java">
+    <entry file="file://$PROJECT_DIR$/medicine-service/src/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="400">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserOrganizationRepository.java">
+    <entry file="file://$PROJECT_DIR$/pharmacy-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/templates/error.html">
+    <entry file="file://$PROJECT_DIR$/qcc-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="475">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/templates/hello.html">
+    <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/sinohealth/dscp/BasicApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/search-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1400">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/Test.java">
+    <entry file="file://$PROJECT_DIR$/sleuth-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#750#759#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sleuth-service/src/main/java/com/sinohealth/dscp/SleuthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="200">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/sleuth-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="275">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="850">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="366">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/basicTable_service_war.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="174">
+          <caret line="315" column="35" lean-forward="true" selection-start-line="315" selection-start-column="35" selection-end-line="315" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.class">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="275">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/common-service/common-service.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        <state relative-caret-position="457">
+          <caret line="157" column="92" selection-start-line="157" selection-start-column="92" selection-end-line="157" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/RoleRepository.java">
+    <entry file="file://$PROJECT_DIR$/common-service/src/main/resources/generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="182">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/ResourceRepository.java">
+    <entry file="file://$PROJECT_DIR$/basic-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="382">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+    <entry file="file://$PROJECT_DIR$/drug-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="515" selection-start-line="515" selection-end-line="515" />
+        <state relative-caret-position="725">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+    <entry file="file://$PROJECT_DIR$/common-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="453" column="27" selection-start-line="453" selection-start-column="27" selection-end-line="453" selection-end-column="27" />
+        <state relative-caret-position="1600">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/TestApplication.java">
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/resources/mapping/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/TestApplication.java" />
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+        <state relative-caret-position="525">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/RoleMapper.java" />
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/ProjectMapper.java" />
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/resources/mapping/ProjectMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/api/v1/DrugControllerV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="jar://E:/soft/apache-maven-3.5.3/conf/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.0/mybatis-spring-boot-autoconfigure-1.3.0.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+        <state relative-caret-position="-1050">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/UserRoleRepository.java">
+    <entry file="jar://E:/soft/apache-maven-3.5.3/conf/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Column.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="-964">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/RoleResourceRepository.java">
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/all_sql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="21" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/JobServiceV1.java">
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/resources/generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="547">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/OrganizationServiceV1.java">
+    <entry file="file://$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/api/v1/TestUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/ResourceServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1637#1651#0" expanded="true" />
-            <element signature="e#1926#1936#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/RoleResourceServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" selection-end-line="53" />
-          <folding>
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/RoleServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="51" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1431#1437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserJobServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="41" selection-end-line="52" />
-          <folding>
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserOrganizationServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" column="45" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserRoleServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="25" selection-end-line="52" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/UserServiceV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="69" column="51" selection-end-line="83" />
-          <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-3">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/JobRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="40" selection-end-line="34" />
+        <state relative-caret-position="125">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/repository/OrganizationRepository.java">
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/service/JobServiceV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="200">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/api/v1/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/repository/DrugRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="78" column="57" selection-end-line="119" />
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/test/com/sinohealth/dscp/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/resources/sql/all_sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/model/Drug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="76" column="15" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/constants/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/constants/enumClass/SqlType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/sinohealth/dscp/DiscoveryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/DrugApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/resources/mapping/DrugMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-service/src/test/java/com/sinohealth/dscp/test/DrugTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/api/v1/UserController.java">
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/mapper/DrugMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="214">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/UserApplication.java">
+    <entry file="file://$PROJECT_DIR$/drug-service/src/main/java/com/sinohealth/dscp/service/DrugServiceV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/auth/MySessionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="13" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/auth/MyShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="68" column="9" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/auth/ShiroConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="39" column="52" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="7" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="23" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="41" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="23" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/RoleResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="51" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="21" column="36" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="23" column="26" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserOrganization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="23" column="35" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/sinohealth/dscp/model/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="177">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

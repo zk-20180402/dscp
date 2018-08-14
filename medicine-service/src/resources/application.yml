@@ -11,7 +11,7 @@ spring:
   resources:
     add-mappings: false
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/dscp_user?characterEncoding=UTF-8&useSSL=true
+    url: jdbc:mysql://192.168.0.23:3310/dscp?characterEncoding=UTF-8&useSSL=true
     username: root
     password: 123456
     initialize: true
@@ -32,10 +32,10 @@ logging:
   pattern:
     console: "%d - %msg%n"
   level:
-    com.mongcent.tnaot: debug
+    com.sinohealth.dscp: debug
     org.springfromework: info
     org.hibernate: error
-  file: user-service/log/user-service.log
+  file: log/medicine-service.log
 
 eureka:
   client:

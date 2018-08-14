@@ -7,7 +7,7 @@ spring:
   application:
     name: sleuthService
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/dscp_user?characterEncoding=UTF-8&useSSL=true
+      url: jdbc:mysql://192.168.0.23:3310/dscp?characterEncoding=UTF-8&useSSL=true
       username: root
       password: 123456
       initialize: true

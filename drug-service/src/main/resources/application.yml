@@ -5,24 +5,37 @@ spring:
   profiles:
     active: test
   application:
-    name: channelService
+    name: drugService
   mvc:
     throw-exception-if-no-handler-found: true
   resources:
     add-mappings: false
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/sctest?characterEncoding=UTF-8&useSSL=true
+    url: jdbc:mysql://192.168.0.23:3310/dscp
     username: root
     password: 123456
     initialize: true
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
   jpa:
-    show_sql: true
+    show_sql: false
     format_sql: true
     database: MYSQL
     generate-ddl: true
     hibernate:
-      hbm2ddl-auto: update
+      hbm2ddl-auto: none    #不创建表
       dialect: org.hibernate.dialect.MySQL5Dialect
       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   zipkin:
@@ -31,10 +44,22 @@ logging:
   pattern:
     console: "%d - %msg%n"
   level:
-    com.mongcent.tnaot: debug
+    com.sinohealth.dscp: debug
     org.springfromework: info
     org.hibernate: error
-  file: channel-service/log/channel-service.log
+  file: log/drug-service.log
+
+## 该配置节点为独立的节点，同spring的节点在同一级别，如果放在spring之下则导致配置无法被识别
+mybatis:
+  mapper-locations: classpath:mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.sinohealth.dscp.model  # 注意：对应实体类的路径
+
+#pagehelper分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 
 eureka:
   client:

@@ -38,7 +38,7 @@ public class DrugControllerV1 {
     public JsonResult getMyDrugByName(HttpServletRequest request, @PathVariable String name) {
         JsonResult jsonResult = new JsonResult(request.getRequestURI());
         jsonResult.setRespCode(RespCode.SUCCESS);
-        jsonResult.setResultData(DrugServiceV1.getMyDrugByName(name));
+        //jsonResult.setResultData(DrugServiceV1.getMyDrugByName(name));
         return jsonResult;
     }
 

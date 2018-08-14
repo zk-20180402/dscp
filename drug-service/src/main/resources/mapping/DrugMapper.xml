@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.sinohealth.dscp.mapper.DrugMapper">
+
+  <resultMap id="DrugResultMap" type="com.sinohealth.dscp.model.Drug" >
+    <id column="id" property="id"/>
+    <result column="create_time" property="createTime"/>
+    <result column="create_user" property="createUser" />
+    <result column="role_name" property="roleName"/>
+    <result column="role_status" property="roleStatus"/>
+    <result column="update_time" property="updateTime"/>
+    <result column="update_user" property="updateUser"/>
+  </resultMap>
+  <select id="findHappinessByCity" resultMap="DrugResultMap">
+        SELECT * FROM t_drug
+  </select>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="DrugResultMap">
+        SELECT * FROM t_drug where id = #{id}
+    </select>
+
+  <insert id="insertSelective" parameterType="com.sinohealth.dscp.model.Drug" >
+    insert into t_drug
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="createUser != null" >
+        create_user,
+      </if>
+      <if test="roleName != null" >
+        role_name,
+      </if>
+      <if test="roleStatus != null" >
+        role_status,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+      <if test="updateUser != null" >
+        update_user,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id},
+      </if>
+      <if test="createTime != null" >
+        #{createTime},
+      </if>
+      <if test="createUser != null" >
+        #{createUser},
+      </if>
+      <if test="roleName != null" >
+        #{roleName},
+      </if>
+      <if test="roleStatus != null" >
+        #{roleStatus},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime},
+      </if>
+      <if test="updateUser != null" >
+        #{updateUser},
+      </if>
+    </trim>
+  </insert>
+
+  <insert id="insert" parameterType="com.sinohealth.dscp.model.Drug" >
+    insert into t_drug (id, create_time, create_user,
+      role_name, role_status, update_time,
+      update_user)
+    values (#{id}, #{createTime}, #{createUser},
+      #{roleName}, #{roleStatus}, #{updateTime},
+      #{updateUser})
+  </insert>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_drug
+    where id = #{id}
+  </delete>
+
+  <update id="updateByPrimaryKey" parameterType="com.sinohealth.dscp.model.Drug" >
+    update t_drug
+    <set >
+      <if test="createTime != null" >
+        create_time = #{createTime},
+      </if>
+      <if test="createUser != null" >
+        create_user = #{createUser},
+      </if>
+      <if test="roleName != null" >
+        role_name = #{roleName},
+      </if>
+      <if test="roleStatus != null" >
+        role_status = #{roleStatus},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime},
+      </if>
+      <if test="updateUser != null" >
+        update_user = #{updateUser},
+      </if>
+    </set>
+    where id = #{id}
+  </update>
+
+  <insert id="insertDrugList"  useGeneratedKeys="true" parameterType="java.util.List">
+    insert into t_drug (create_time,create_user,role_name,role_status, update_time,update_user)
+    values
+    <!--item就是List里每一项的对象名，要用","分割每一条数据，最后要";"结尾-->
+    <foreach collection="list" item="item" index="index" separator="," close=";">
+      (#{item.createTime}, #{item.createUser},#{item.roleName},#{item.roleStatus},#{item.updateTime},#{item.updateUser})
+    </foreach>
+  </insert>
+</mapper>
